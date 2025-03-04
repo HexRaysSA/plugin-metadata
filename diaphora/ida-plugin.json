@@ -2,7 +2,7 @@
   "IDAMetadataDescriptorVersion": 1,
   "install": {
     "repository": "https://github.com/joxeankoret/diaphora",
-    "basedir": "plugin/"
+    "instructions": "Edit the 'diaphora_plugin.cfg' file and set the path to the Diaphora installation directory."
   },
   "metadata": {
     "IDAMetadataDescriptorVersion": 1,
