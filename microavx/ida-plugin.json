@@ -1,5 +1,4 @@
 {
-  "IDAMetadataDescriptorVersion": 2,
   "install": {
     "repository": "https://github.com/gaasedelen/microavx",
     "basedir": "plugins/"

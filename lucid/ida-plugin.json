@@ -1,5 +1,4 @@
 {
-  "IDAMetadataDescriptorVersion": 1,
   "install": {
     "repository": "https://github.com/gaasedelen/lucid",
     "basedir": "plugins/"
