@@ -4,9 +4,12 @@
     "repository": "https://github.com/gaasedelen/microavx",
     "basedir": "plugins/"
   },
-  "plugin": {
-    "name": "lucid",
-    "description": "Lucid - An Interactive Hex-Rays Microcode Explorer",
-    "entryPoint": "lucid_plugin.py"
+  "metadata": {
+    "IDAMetadataDescriptorVersion": 1,
+    "plugin": {
+      "name": "lucid",
+      "description": "Lucid - An Interactive Hex-Rays Microcode Explorer",
+      "entryPoint": "lucid_plugin.py"
+    }
   }
 }
