@@ -7,9 +7,9 @@
   "metadata": {
     "IDAMetadataDescriptorVersion": 1,
     "plugin": {
-      "name": "lucid",
-      "description": "Lucid - An Interactive Hex-Rays Microcode Explorer",
-      "entryPoint": "lucid_plugin.py"
+      "name": "microavx",
+      "description": "An AVX Lifter for the Hex-Rays Decompiler",
+      "entryPoint": "microavx.py"
     }
   }
 }
