@@ -1,4 +1,5 @@
 {
+  "id": "lucid",
   "install": {
     "repository": "https://github.com/gaasedelen/lucid",
     "basedir": "plugins/"

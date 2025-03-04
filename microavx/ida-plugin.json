@@ -1,4 +1,5 @@
 {
+  "id": "microavx",
   "install": {
     "repository": "https://github.com/gaasedelen/microavx",
     "basedir": "plugins/"
