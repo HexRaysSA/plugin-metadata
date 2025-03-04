@@ -1,0 +1,11 @@
+{
+  "IDAMetadataDescriptorVersion": 1,
+  "install": {
+    "repository": "https://github.com/joydo/d810",
+    "basedir": "."
+  },
+  "plugin": {
+    "name": "d810",
+    "entryPoint": "D810.py"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "IDAMetadataDescriptorVersion": 1,
+  "install": {
+    "repository": "https://github.com/joxeankoret/diaphora",
+    "basedir": "plugin/"
+  },
+  "plugin": {
+    "name": "diaphora",
+    "description": "Diaphora, the most advanced Free and Open Source program diffing tool.",
+    "entryPoint": "diaphora_plugin.py"
+  }
+}
