@@ -9,7 +9,7 @@
     "plugin": {
       "name": "diaphora",
       "description": "Diaphora, the most advanced Free and Open Source program diffing tool.",
-      "entryPoint": "diaphora_plugin.py"
+      "entryPoint": "plugin/diaphora_plugin.py"
     }
   }
 }
