@@ -1,15 +1,14 @@
 {
   "id": "lucid",
   "install": {
-    "repository": "https://github.com/gaasedelen/lucid",
-    "basedir": "plugins/"
+    "repository": "https://github.com/gaasedelen/lucid"
   },
   "metadata": {
     "IDAMetadataDescriptorVersion": 1,
     "plugin": {
       "name": "lucid",
       "description": "Lucid - An Interactive Hex-Rays Microcode Explorer",
-      "entryPoint": "lucid_plugin.py"
+      "entryPoint": "plugins/lucid_plugin.py"
     }
   }
 }

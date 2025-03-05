@@ -1,8 +1,7 @@
 {
   "id": "hrdevhelper",
   "install": {
-    "repository": "https://github.com/patois/HRDevHelper",
-    "basedir": "."
+    "repository": "https://github.com/patois/HRDevHelper"
   },
   "metadata": {
     "IDAMetadataDescriptorVersion": 1,

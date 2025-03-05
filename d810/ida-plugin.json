@@ -1,8 +1,7 @@
 {
   "id": "d810",
   "install": {
-    "repository": "https://github.com/joydo/d810",
-    "basedir": "."
+    "repository": "https://github.com/joydo/d810"
   },
   "metadata": {
     "IDAMetadataDescriptorVersion": 1,

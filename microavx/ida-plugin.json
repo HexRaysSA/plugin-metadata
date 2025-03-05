@@ -1,15 +1,14 @@
 {
   "id": "microavx",
   "install": {
-    "repository": "https://github.com/gaasedelen/microavx",
-    "basedir": "plugins/"
+    "repository": "https://github.com/gaasedelen/microavx"
   },
   "metadata": {
     "IDAMetadataDescriptorVersion": 1,
     "plugin": {
       "name": "microavx",
       "description": "An AVX Lifter for the Hex-Rays Decompiler",
-      "entryPoint": "microavx.py"
+      "entryPoint": "plugins/microavx.py"
     }
   }
 }
