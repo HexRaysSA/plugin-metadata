@@ -1,0 +1,15 @@
+{
+  "id": "hrdevhelper",
+  "install": {
+    "repository": "https://github.com/patois/HRDevHelper",
+    "basedir": "."
+  },
+  "metadata": {
+    "IDAMetadataDescriptorVersion": 1,
+    "plugin": {
+      "name": "hrdevhelper",
+      "description": "HexRays ctree visualization plugin",
+      "entryPoint": "hrdevhelper.py"
+    }
+  }
+}
