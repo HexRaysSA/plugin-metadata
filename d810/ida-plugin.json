@@ -8,6 +8,7 @@
     "IDAMetadataDescriptorVersion": 1,
     "plugin": {
       "name": "d810",
+      "description": "D-810 is an IDA Pro plugin which can be used to deobfuscate code at decompilation time.",
       "entryPoint": "D810.py"
     }
   }
