@@ -5,8 +5,7 @@ permissions:
 
 on:
   push:
-    paths:
-      - 'listing.json'
+
   workflow_dispatch:
     inputs:
       message:

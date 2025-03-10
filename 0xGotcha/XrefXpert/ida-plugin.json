@@ -1,0 +1,14 @@
+{
+  "id": "0xGotcha/XrefXpert",
+  "install": {
+    "repository": "https://github.com/0xGotcha/XrefXpert"
+  },
+  "metadata": {
+    "IDAMetadataDescriptorVersion": 1,
+    "plugin": {
+      "name": "XrefXpert",
+      "description": "Tracks cross references and allows fast viewing of pseudocode between references",
+      "entryPoint": "XrefXpert.py"
+    }
+  }
+}
