@@ -15,6 +15,11 @@
     "description": "HexRays ctree visualization plugin"
   },
   {
+    "id": "0xGotcha/XrefXpert",
+    "name": "XrefXpert",
+    "description": "Tracks cross references and allows fast viewing of pseudocode between references"
+  },
+  {
     "id": "gaasedelen/lucid",
     "name": "lucid",
     "description": "Lucid - An Interactive Hex-Rays Microcode Explorer"
