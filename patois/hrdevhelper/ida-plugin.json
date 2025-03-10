@@ -1,5 +1,5 @@
 {
-  "id": "hrdevhelper",
+  "id": "patois/hrdevhelper",
   "install": {
     "repository": "https://github.com/patois/HRDevHelper"
   },

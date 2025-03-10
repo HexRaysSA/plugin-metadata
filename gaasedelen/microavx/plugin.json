@@ -1,5 +1,5 @@
 {
-  "id": "microavx",
+  "id": "gaasedelen/microavx",
   "install": {
     "repository": "https://github.com/gaasedelen/microavx"
   },

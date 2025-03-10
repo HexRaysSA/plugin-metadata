@@ -1,0 +1,12 @@
+{
+  "tasks": {
+  },
+  "imports": {
+    "@std/fs": "jsr:@std/fs@^1.0.5"
+  },
+  "fmt": {
+    "indentWidth": 4,
+    "useTabs": false,
+    "lineWidth": 120
+  }
+}

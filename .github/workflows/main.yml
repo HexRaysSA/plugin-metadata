@@ -1,0 +1,44 @@
+name: Generate plugin.json
+
+permissions:
+  contents: write
+
+on:
+  push:
+    paths:
+      - 'listing.json'
+  workflow_dispatch:
+    inputs:
+      message:
+        description: 'automatically update readme and plugin.json based on updates and latest listing'
+        required: true
+
+env:
+  DENO_VERSION: 2.2.2
+  PACKAGENAME: hcli
+
+jobs:
+  run:
+    name: Update Plugins.json
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      # Set up Deno environment
+      - name: Setup Deno
+        uses: denoland/setup-deno@v1
+        with:
+          deno-version: ${{ env.DENO_VERSION }}
+
+      - name: Run Generator
+        run: deno -R -W plugins.ts
+
+      - name: Commit changes
+        uses: EndBug/add-and-commit@v9
+        with:
+          author_name: ${{ github.actor }}
+          author_email: plugins@hex-rays.com
+          message: ${{ inputs.message }}
+          add: '["*.json"]'
+
